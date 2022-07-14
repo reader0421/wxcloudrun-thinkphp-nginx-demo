@@ -31,6 +31,11 @@ class Index
         return response(file_get_contents(dirname(dirname(__FILE__)).'/view/index.html'));
     }
 
+    public function test()
+    {
+        return 111;
+    }
+
 
     /**
      * 获取todo list
